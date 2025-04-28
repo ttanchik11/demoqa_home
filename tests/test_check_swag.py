@@ -1,8 +1,4 @@
-
-# 8. реализуйте тест кейс
-# a. в файле test_check_swag.py реализуйте следующий тест кейс:
-# i. перейти на страницу https://www.saucedemo.com/
-# ii. проверить наличие поля пароля
+#ДЗ №6
 
 from pages.swag_labs import SwagLabs
 
