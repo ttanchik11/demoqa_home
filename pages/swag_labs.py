@@ -4,6 +4,9 @@ from pages.base_page import BasePage
 
 
 class SwagLabs(BasePage):
+    ICON_LOCATOR = "div.login_logo"
+    USERNAME_LOCATOR = "#user-name"
+    PASSWORDFIELD_LOCATOR = '#user-name'
 
     def exist_icon(self):
         try:
